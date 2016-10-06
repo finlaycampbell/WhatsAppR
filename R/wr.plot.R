@@ -7,7 +7,7 @@ wr.plot <- function(data,delays,save){
   
   timeline <- ggplot(data,aes(x=date)) + geom_histogram(binwidth=1) + xlab("Date") + ylab("Messages")
   
-  daytime <- ggplot(data,aes(x=time)) + geom_histogram(binwidth=0.005) + scale_x_chron(format="%H:%M",n=10) +
+  daytime <- ggplot(data,aes(x=time)) + geom_histogram(binwidth=0.005) + chron::scale_x_chron(format="%H:%M",n=10) +
              xlab("Time") + ylab("Messages")
   
   plot.msg <- data.frame(Person=levels(data$person),
@@ -15,7 +15,7 @@ wr.plot <- function(data,delays,save){
                          Words=as.vector(by(data$words,data$person,sum)),
                          Delay=as.vector(by(delays$time,delays$Person,mean)))
   
-  plot.msg <- apply(plot.msg,2, function(i) i/max(i))
+  plot.msg[,2:ncol(plot.msg)] <- apply(plot.msg[,2:ncol(plot.msg)],2, function(i) i/max(i))
   
   ggplot.msg <- reshape2::melt(plot.msg,id="Person")
   ggplot.msg$Person <- factor(ggplot.msg$Person,levels=levels(data$person))

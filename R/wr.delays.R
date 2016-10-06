@@ -1,6 +1,6 @@
 wr.delays <- function(data){
   
-  delays <- data.frame(Person=factor(rep(NA,nrow(data)),levels=people),time=rep(NA,nrow(data)))
+  delays <- data.frame(Person=factor(rep(NA,nrow(data)),levels=levels(data$person)),time=rep(NA,nrow(data)))
   
   counter <- 1
   

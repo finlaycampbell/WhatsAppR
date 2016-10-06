@@ -4,11 +4,13 @@ wr.data <- function(input,OS){
   
   if(OS=="android"){
     find.index <- 2
+    start_name <- 21
     data$time <- chron::times(paste(substr(input,13,17),":00",sep=""))
   }
   
   if(OS=="iOS"){
     find.index <- 4
+    start_name <- 24
     data$time <- chron::times(substr(input,13,20))
   }
   

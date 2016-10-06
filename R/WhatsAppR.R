@@ -1,11 +1,13 @@
-
+##' Visualising WhatsApp conversation data
+##' 
+##' @author Finlay Campbell <f.campbell15@@imperial.ac.uk>
+##' 
+##' @param file the location of the WhatsApp txt file (including \\ replacement)
+##' @param save a logcal indicating if the output plots should be saved to the current directory
+##' @param OS indicating if the operating system is "android" or "iOS"
+##' @param wordcloud a logical indicating if a wordcloud should be plotted or not 
 
 library(ggplot2)
-library(reshape2)
-library(chron)
-library(wordcloud)
-library(tm)
-library(R.utils)
 
 WhatsAppR <- function(file,save=FALSE,OS="android",wordlcoud=TRUE){
   
@@ -15,7 +17,7 @@ WhatsAppR <- function(file,save=FALSE,OS="android",wordlcoud=TRUE){
     
   delays <- wr.delays(data)
 
-  plots <- wr.plots(data,save)
+  plots <- wr.plot(data,delays,save)
   
   if(wordlcoud) wr.wordcloud(data)
 
@@ -26,4 +28,4 @@ WhatsAppR <- function(file,save=FALSE,OS="android",wordlcoud=TRUE){
   return(out)
 }
 
-for(i in c("K","M","C","CC","AIDS","TC")) assign(paste("out",i,sep=""),WhatsAppR(paste("chat",i,sep=""),save=TRUE))
+#for(i in c("K","M","C","CC","AIDS","TC")) assign(paste("out",i,sep=""),WhatsAppR(paste("chat",i,sep=""),save=TRUE))
