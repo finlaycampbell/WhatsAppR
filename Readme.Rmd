@@ -2,7 +2,7 @@
 
 # WhatsAppR: Visualising WhatsApp Conversation Data
 
-This package shows you what time of day you WhatsApp most, what words you use most commonly, who messages more and replies more quickly.
+This package visualises various features of your WhatsApp conversations with different people and groups; what time of day you message most, what words you use most commonly, who messages more and who replies more quickly.
 
 
 ## Installing the package
