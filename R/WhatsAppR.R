@@ -1,3 +1,4 @@
+
 ##' Visualising WhatsApp conversation data
 ##' 
 ##' @author Finlay Campbell <f.campbell15@@imperial.ac.uk>
@@ -19,7 +20,7 @@ WhatsAppR <- function(file,save=FALSE,OS="android",wordcloud=TRUE){
 
   plots <- wr.plot(data,delays,save)
   
-  if(wordlcoud) wr.wordcloud(data)
+  if(wordcloud) wr.wordcloud(data)
 
   out <- list()
   out$data <- list(data=data,delays=delays)
@@ -27,5 +28,3 @@ WhatsAppR <- function(file,save=FALSE,OS="android",wordcloud=TRUE){
 
   return(out)
 }
-
-#for(i in c("K","M","C","CC","AIDS","TC")) assign(paste("out",i,sep=""),WhatsAppR(paste("chat",i,sep=""),save=TRUE))

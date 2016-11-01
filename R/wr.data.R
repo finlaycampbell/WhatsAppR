@@ -1,3 +1,6 @@
+
+## Cleaning the input data and allocating it to person, text, words and time
+
 wr.data <- function(input,OS){
   
   data <- data.frame(date=as.Date(substr(input,1,10),"%d/%m/%Y"))

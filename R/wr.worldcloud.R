@@ -1,3 +1,6 @@
+
+## Creates a wordlcoud from 'data', excluding common words
+
 wr.wordcloud <- function(data){
   
   rm.words <- c(tm::stopwords(),R.utils::capitalize(tm::stopwords()),"<Media","omitted>")
@@ -7,4 +10,5 @@ wr.wordcloud <- function(data){
   
   cloud <- wordcloud::wordcloud(names(words.table),words.table,c(4,0.5))
   
+  return(cloud)
 }
