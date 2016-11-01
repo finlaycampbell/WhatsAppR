@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/finlaycampbell/WhatsAppR.svg?branch=master)](https://travis-ci.org/finlaycampbell/WhatsAppR)
 
-# WhatsAppR: visualising WhatsApp conversation data
+# WhatsAppR: Visualising WhatsApp Conversation Data
 
-This package visualises WhatsApp conversation data.
+This package shows you what time of day you WhatsApp most, what words you use most commonly, who messages more and replies more quickly.
 
 
-# Installing the package
+## Installing the package
 
 To install the devel version of the package, type:
   
@@ -18,8 +18,12 @@ Note that this requires the package *devtools* installed.
 
 ## Importing WhatsApp conversation data
 
-To import a conversation of interest into WhatsAppR, select 'More' -> 'Email chat' under the options heading.
-Email the conversation to yourself, and download the .txt file. The file path is provided as an argument to WhatsAppR.
+To import a conversation of interest into WhatsAppR:
+-select the conversation on the mobile WhatsApp app
+-select additional options -> 'More' -> 'Email chat'
+-email the conversation to yourself
+-download the .txt file and provide the file path as an argument to WhatsAppR
+
 
 ### Maintainer:
 Finlay Campbell (@finlaycampbell || f.campbell15@imperial.ac.uk)
