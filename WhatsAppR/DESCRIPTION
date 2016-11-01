@@ -1,0 +1,18 @@
+Package: WhatsAppR
+Title: Visualizing WhatsApp Conversation Data
+Version: 0.0.0.9000
+Authors@R: person("Finlay", "Campbell", email = "f.campbell15@imperial.ac.uk", role = c("aut", "cre"))
+Description: Find out who messages more, replies more quickly, what time of day you message and what your most used words are.  
+Depends:
+    R (>= 3.3.1),
+    ggplot2
+Imports:
+    chron,
+    reshape2,
+    wordcloud,
+    tm,
+    R.utils,
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
