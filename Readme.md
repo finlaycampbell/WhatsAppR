@@ -19,11 +19,11 @@ Note that this requires the package *devtools* installed.
 ## Importing WhatsApp conversation data
 
 To import a conversation of interest into WhatsAppR:
--select the conversation on the mobile WhatsApp app
--select additional options -> 'More' -> 'Email chat'
--email the conversation to yourself
+-select the conversation on the mobile WhatsApp app"  \n
+-select additional options -> 'More' -> 'Email chat'"  \n
+-email the conversation to yourself"  \n
 -download the .txt file and provide the file path as an argument to WhatsAppR
 
 
 ### Maintainer:
-Finlay Campbell (@finlaycampbell || f.campbell15@imperial.ac.uk)
+Finlay Campbell (@finlaycampbell // f.campbell15@imperial.ac.uk)
