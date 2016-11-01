@@ -5,7 +5,7 @@
 ##' 
 ##' @export
 ##' 
-##' @param file the location of the WhatsApp txt file (including \\ replacement)
+##' @param file the directory of the WhatsApp .txt file
 ##' @param save a logcal indicating if the output plots should be saved to the current directory
 ##' @param OS indicating if the operating system is "android" or "iOS"
 ##' @param wordcloud a logical indicating if a wordcloud should be plotted or not 
