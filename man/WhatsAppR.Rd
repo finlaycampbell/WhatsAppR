@@ -7,7 +7,7 @@
 WhatsAppR(file, save = FALSE, OS = "android", wordcloud = TRUE)
 }
 \arguments{
-\item{file}{the location of the WhatsApp txt file (including \\ replacement)}
+\item{file}{the directory of the WhatsApp .txt file}
 
 \item{save}{a logcal indicating if the output plots should be saved to the current directory}
 
