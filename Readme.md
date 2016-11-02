@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/finlaycampbell/WhatsAppR.svg?branch=master)](https://travis-ci.org/finlaycampbell/WhatsAppR)
 
+[![codecov](https://codecov.io/gh/finlaycampbell/WhatsAppR/branch/master/graph/badge.svg)](https://codecov.io/gh/finlaycampbell/WhatsAppR)
+
 # WhatsAppR: Visualising WhatsApp Conversation Data
 
 This package visualises various features of your WhatsApp conversations with different people and groups; what time of day you message most, what words you use most commonly, who messages more and who replies more quickly.
