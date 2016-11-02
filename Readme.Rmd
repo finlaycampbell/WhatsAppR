@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/finlaycampbell/WhatsAppR.svg?branch=master)](https://travis-ci.org/finlaycampbell/WhatsAppR)
-
-[![codecov](https://codecov.io/gh/finlaycampbell/WhatsAppR/branch/master/graph/badge.svg)](https://codecov.io/gh/finlaycampbell/WhatsAppR)
+[![Build Status](https://travis-ci.org/finlaycampbell/WhatsAppR.svg?branch=master)](https://travis-ci.org/finlaycampbell/WhatsAppR) [![codecov](https://codecov.io/gh/finlaycampbell/WhatsAppR/branch/master/graph/badge.svg)](https://codecov.io/gh/finlaycampbell/WhatsAppR)
 
 # WhatsAppR: Visualising WhatsApp Conversation Data
 
