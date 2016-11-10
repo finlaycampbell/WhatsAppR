@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/finlaycampbell/WhatsAppR.svg?branch=master)](https://travis-ci.org/finlaycampbell/WhatsAppR) [![codecov](https://codecov.io/gh/finlaycampbell/WhatsAppR/branch/master/graph/badge.svg)](https://codecov.io/gh/finlaycampbell/WhatsAppR) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)(http://creativecommons.org/licenses/by/4.0/)
+[![Build Status](https://travis-ci.org/finlaycampbell/WhatsAppR.svg?branch=master)](https://travis-ci.org/finlaycampbell/WhatsAppR) [![codecov](https://codecov.io/gh/finlaycampbell/WhatsAppR/branch/master/graph/badge.svg)](https://codecov.io/gh/finlaycampbell/WhatsAppR) ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 # WhatsAppR: Visualising WhatsApp Conversation Data
 
