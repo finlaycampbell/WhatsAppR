@@ -3,6 +3,7 @@
 ##' 
 ##' @author Finlay Campbell <f.campbell15@@imperial.ac.uk>
 ##' 
+##' @return Returns a list of output plots
 ##' @export
 ##' 
 ##' @param file the directory of the WhatsApp .txt file
