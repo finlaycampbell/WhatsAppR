@@ -4,7 +4,8 @@
 \alias{WhatsAppR}
 \title{Visualising WhatsApp conversation data}
 \usage{
-WhatsAppR(file, save = FALSE, OS = "android", wordcloud = TRUE)
+WhatsAppR(file, save = FALSE, OS = "android", plot = TRUE,
+  wordcloud = TRUE, CheckForErrors = FALSE)
 }
 \arguments{
 \item{file}{the directory of the WhatsApp .txt file}
@@ -13,7 +14,14 @@ WhatsAppR(file, save = FALSE, OS = "android", wordcloud = TRUE)
 
 \item{OS}{indicating if the operating system is "android" or "iOS"}
 
+\item{plot}{indicating if plots should be created and return in output}
+
 \item{wordcloud}{a logical indicating if a wordcloud should be plotted or not}
+
+\item{CheckForErrors}{will check for errors in reading of input data, mostly due to quoted text}
+}
+\value{
+Returns a named list of output plots
 }
 \description{
 Visualising WhatsApp conversation data
