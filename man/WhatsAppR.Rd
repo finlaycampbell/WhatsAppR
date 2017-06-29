@@ -29,4 +29,3 @@ Visualising WhatsApp conversation data
 \author{
 Finlay Campbell <f.campbell15@imperial.ac.uk>
 }
-

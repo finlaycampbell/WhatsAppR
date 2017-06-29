@@ -4,7 +4,7 @@
 \alias{wr.data}
 \title{Reading WhatsApp conversation data}
 \usage{
-wr.data(file, OS, CheckForErrors)
+wr.data(file, OS, CheckForErrors = FALSE)
 }
 \arguments{
 \item{file}{the directory of the WhatsApp .txt file}
@@ -22,4 +22,3 @@ Reading WhatsApp conversation data
 \author{
 Finlay Campbell <f.campbell15@imperial.ac.uk>
 }
-
